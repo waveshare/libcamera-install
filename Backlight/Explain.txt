@@ -1,0 +1,19 @@
+背光调节方法
+
+一、修改/boot/config.txt中的dtoverlay=WS_7inchDSI1024x600_Screen为dtoverlay=WS_7inchDSI1024x600_Screen,Backlight=x    （ x为0-255，0为最暗，255为最亮，默认为最亮）
+
+二、使用brightness文件夹中的WS_7inchDSI1024x600_Backlight可执行文件
+	1、cd brightness
+	2、sudo chmod 777 WS_7inchDSI1024x600_Backlight
+	3、终端运行 sudo  ./WS_7inchDSI1024x600_Backlight 或者双击WS_7inchDSI1024x600_Backlight
+
+三、将WS_7inchDSI1024x600_Backlight安装至Accessories
+	1、cd brightness
+	2、sudo chmod 777 install.sh
+	3、sudo ./install.sh
+	4、在开始菜单->Accessories中打开程序
+	
+
+
+
+

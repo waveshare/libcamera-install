@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Brightness
+Name[zh_CN]=Brightness
+Comment=britness Client
+Exec=/usr/share/applications/WS_7inchDSI1024x600_Backlight
+Icon=/usr/share/applications/WS_7inchDSI1024x600_Backlight.png
+Terminal=false
+Type=Application
+Categories=Utility;
+Encoding=UTF-8
+StartupNotify=true

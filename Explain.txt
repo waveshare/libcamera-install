@@ -1,0 +1,21 @@
+linux内核版本 		5.10
+树莓派硬件版本 		pi3 pi4
+
+驱动安装方法：
+0、sudo dpkg-reconfigure dash 选择no
+1、将WS_7inchDSI1024x600_Pack复制到桌面
+2、cd Desktop/WS_7inchDSI1024x600_Pack
+3、sudo chmod -R 777 WS_7inchDSI1024x600_MAIN.sh
+4、sudo ./WS_7inchDSI1024x600_MAIN.sh
+5、等待安装完成
+6、系统重启
+
+背光调节运行方法：
+0、复制WS_7inchDSI1024x600_Pack/Backlight下的WS_7inchDSI1024x600_Backlight到桌面
+1、cd Desktop/
+2、sudo chmod -R 777 WS_7inchDSI1024x600_Backlight
+3、双击WS_7inchDSI1024x600_Backlight运行，0为最暗，255为最亮
+
+默认背光调节方法
+在boot目录config.txt文件下修改dtoverlay=WS_7inchDSI1024x600_Screen为dtoverlay=WS_7inchDSI1024x600_Screen,Backlight=x    （ x为0-255，0为最暗，255为最亮，默认为最亮）
+
