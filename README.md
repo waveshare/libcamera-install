@@ -1,1 +1,1 @@
-#7inch DSI LCD (C)
+# 7inch-DSI-LCD-C
